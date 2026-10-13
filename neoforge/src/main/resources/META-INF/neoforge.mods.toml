@@ -12,7 +12,7 @@ description = '''
 Adds Hollow Logs & improves Fallen Trees
 '''
 displayURL="https://greatbigworld.creoii.dev"
-#logoFile = ""
+iconFile = "src/main/resources/assets/hollow_logs/icon.png"
 
 [[dependencies.hollow_logs]]
 modId = "neoforge"

@@ -9,7 +9,7 @@
     "homepage": "https://greatbigworld.creoii.dev"
   },
   "license": "All-Rights-Reserved",
-  "icon": "assets/hollow-logs/icon.png",
+  "icon": "assets/hollow_logs/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
