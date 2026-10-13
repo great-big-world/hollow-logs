@@ -1,0 +1,12 @@
+{
+  "values": [
+    "#minecraft:leaves",
+    "#minecraft:replaceable",
+    "#minecraft:flowers",
+    "#minecraft:saplings",
+    "minecraft:red_mushroom",
+    "minecraft:brown_mushroom",
+    "minecraft:crimson_fungus",
+    "minecraft:warped_fungus"
+  ]
+}

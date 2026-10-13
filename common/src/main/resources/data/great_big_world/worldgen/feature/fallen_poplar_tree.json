@@ -1,0 +1,63 @@
+{
+  "type": "great_big_world:fallen_tree",
+  "log_decorators": [
+    {
+      "type": "minecraft:attached_to_logs",
+      "block_provider": {
+        "id": "minecraft:brown_mushroom"
+      },
+      "directions": [
+        "up"
+      ],
+      "probability": 0.1
+    },
+    {
+      "type": "minecraft:shelf_mushroom",
+      "probability": 0.8
+    }
+  ],
+  "state": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "weight": 2,
+        "data": "minecraft:poplar_log"
+      },
+      {
+        "weight": 3,
+        "data": "great_big_world:hollow_poplar_log"
+      }
+    ]
+  },
+  "leaf_state": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "minecraft:red_poplar_leaves"
+      },
+      {
+        "data": "minecraft:orange_poplar_leaves"
+      },
+      {
+        "data": "minecraft:yellow_poplar_leaves"
+      }
+    ]
+  },
+  "stump_state": {
+    "type": "minecraft:simple",
+    "id": "minecraft:poplar_log"
+  },
+  "length": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 4,
+    "max_inclusive": 7
+  },
+  "stump_to_trunk_gap": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 1,
+    "max_inclusive": 3
+  },
+  "stump_chance": 0.6,
+  "leaf_chance": 0.6,
+  "leaf_density": 0.75
+}

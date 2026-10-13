@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:random_selector",
+  "default": "minecraft:spruce_checked",
+  "features": [
+    {
+      "chance": 0.33333334,
+      "feature": "minecraft:pine_checked"
+    },
+    {
+      "chance": 0.025,
+      "feature": "great_big_world:fallen_spruce_tree"
+    }
+  ]
+}

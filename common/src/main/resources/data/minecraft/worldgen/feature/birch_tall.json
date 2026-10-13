@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:random_selector",
+  "default": "minecraft:birch_bees_0002",
+  "features": [
+    {
+      "chance": 0.0125,
+      "feature": "great_big_world:fallen_super_birch_tree"
+    },
+    {
+      "chance": 0.5,
+      "feature": "minecraft:super_birch_bees_0002"
+    },
+    {
+      "chance": 0.025,
+      "feature": "great_big_world:fallen_birch_tree"
+    }
+  ]
+}

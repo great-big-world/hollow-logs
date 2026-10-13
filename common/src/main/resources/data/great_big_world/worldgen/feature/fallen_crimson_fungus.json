@@ -1,0 +1,39 @@
+{
+  "type": "great_big_world:fallen_tree",
+  "log_decorators": [],
+  "state": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "weight": 2,
+        "data": "minecraft:crimson_stem"
+      },
+      {
+        "weight": 3,
+        "data": "great_big_world:hollow_crimson_stem"
+      }
+    ]
+  },
+  "length": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 4,
+    "max_inclusive": 13
+  },
+  "stump_to_trunk_gap": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 0,
+    "max_inclusive": 2
+  },
+  "leaf_state": {
+    "type": "minecraft:simple",
+    "id": "minecraft:nether_wart_block"
+  },
+  "stump_state": {
+    "type": "minecraft:simple",
+    "id": "minecraft:crimson_stem"
+  },
+  "stump_chance": 0.7,
+  "leaf_chance": 0.9,
+  "leaf_density": 0.9,
+  "adjust_for_nether": true
+}

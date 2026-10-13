@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "hollow_logs",
+  "version": "${version}",
+  "name": "Hollow Logs",
+  "description": "Hollow Logs & improved Fallen Trees",
+  "authors": ["creoii"],
+  "contact": {
+    "homepage": "https://greatbigworld.creoii.dev"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/hollow-logs/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.creoii.greatbigworld.hollowlogs.fabric.HollowLogsFabric"
+    ],
+  },
+  "mixins": [
+    "hollowlogs.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25"
+    ,"architectury": ">=22.0.4"
+    ,"fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

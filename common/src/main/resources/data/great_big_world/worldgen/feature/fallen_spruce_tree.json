@@ -1,0 +1,59 @@
+{
+  "type": "great_big_world:fallen_tree",
+  "log_decorators": [
+    {
+      "type": "minecraft:attached_to_logs",
+      "block_provider": {
+        "type": "minecraft:weighted",
+        "entries": [
+          {
+            "data": "minecraft:red_mushroom",
+            "weight": 2
+          },
+          {
+            "data": "minecraft:brown_mushroom",
+            "weight": 1
+          }
+        ]
+      },
+      "directions": [
+        "up"
+      ],
+      "probability": 0.1
+    }
+  ],
+  "state": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "weight": 2,
+        "data": "minecraft:spruce_log"
+      },
+      {
+        "weight": 3,
+        "data": "great_big_world:hollow_spruce_log"
+      }
+    ]
+  },
+  "length": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 6,
+    "max_inclusive": 10
+  },
+  "stump_to_trunk_gap": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 1,
+    "max_inclusive": 2
+  },
+  "leaf_state": {
+    "type": "minecraft:simple",
+    "id": "minecraft:spruce_leaves"
+  },
+  "stump_state": {
+    "type": "minecraft:simple",
+    "id": "minecraft:spruce_log"
+  },
+  "stump_chance": 0.6,
+  "leaf_chance": 0.4,
+  "leaf_density": 0.6
+}

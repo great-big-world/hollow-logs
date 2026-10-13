@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "dev.creoii.greatbigworld.hollowlogs.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "minVersion": "0.8",
+  "client": [
+  ],
+  "mixins": [
+    "AbstractCraftingMenuAccessor",
+    "CraftingMenuMixin",
+    "EntityMixin",
+    "ResultContainerAccessor",
+    "ResultContainerMixin",
+    "ServerGamePacketListenerImplMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

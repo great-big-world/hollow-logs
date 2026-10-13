@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:random_selector",
+  "default": "minecraft:oak_checked",
+  "features": [
+    {
+      "chance": 0.01665,
+      "feature": "great_big_world:fallen_spruce_tree"
+    },
+    {
+      "chance": 0.666,
+      "feature": "minecraft:spruce_checked"
+    },
+    {
+      "chance": 0.1,
+      "feature": "minecraft:fancy_oak_checked"
+    },
+    {
+      "chance": 0.025,
+      "feature": "great_big_world:fallen_oak_tree"
+    }
+  ]
+}
