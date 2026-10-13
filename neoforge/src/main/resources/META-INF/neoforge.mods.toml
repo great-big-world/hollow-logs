@@ -9,7 +9,7 @@ version = "${version}"
 displayName = "Hollow Logs"
 authors = "creoii"
 description = '''
-Hollow Logs & improved Fallen Trees
+Adds Hollow Logs & improves Fallen Trees
 '''
 displayURL="https://greatbigworld.creoii.dev"
 #logoFile = ""

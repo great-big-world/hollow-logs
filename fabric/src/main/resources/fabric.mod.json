@@ -3,7 +3,7 @@
   "id": "hollow_logs",
   "version": "${version}",
   "name": "Hollow Logs",
-  "description": "Hollow Logs & improved Fallen Trees",
+  "description": "Adds Hollow Logs & improves Fallen Trees",
   "authors": ["creoii"],
   "contact": {
     "homepage": "https://greatbigworld.creoii.dev"
@@ -14,7 +14,7 @@
   "entrypoints": {
     "main": [
       "dev.creoii.greatbigworld.hollowlogs.fabric.HollowLogsFabric"
-    ],
+    ]
   },
   "mixins": [
     "hollowlogs.mixins.json"

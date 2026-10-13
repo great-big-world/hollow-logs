@@ -6,11 +6,7 @@
   "client": [
   ],
   "mixins": [
-    "AbstractCraftingMenuAccessor",
-    "CraftingMenuMixin",
     "EntityMixin",
-    "ResultContainerAccessor",
-    "ResultContainerMixin",
     "ServerGamePacketListenerImplMixin"
   ],
   "injectors": {
