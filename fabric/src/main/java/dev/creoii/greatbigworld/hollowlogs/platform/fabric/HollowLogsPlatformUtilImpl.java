@@ -17,4 +17,11 @@ public final class HollowLogsPlatformUtilImpl {
         player.removeAttached(HollowLogsDataAttachmentsFabric.PLAYER_ENTERING_HOLLOW_LOG);
     }
 
+    public static boolean allowLogAxeCraftingRecipe() {
+        return HollowLogsFabric.CONFIG == null || HollowLogsFabric.CONFIG.allowLogAxeCraftingRecipe;
+    }
+
+    public static void setAllowLogAxeCraftingRecipe(boolean allowLogAxeCraftingRecipe) {
+        if (HollowLogsFabric.CONFIG != null) HollowLogsFabric.CONFIG.allowLogAxeCraftingRecipe = allowLogAxeCraftingRecipe;
+    }
 }

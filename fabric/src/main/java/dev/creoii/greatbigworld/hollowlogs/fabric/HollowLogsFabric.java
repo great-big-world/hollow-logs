@@ -7,10 +7,15 @@ import net.fabricmc.loader.api.FabricLoader;
 import org.jspecify.annotations.Nullable;
 
 public final class HollowLogsFabric implements ModInitializer {
+    @Nullable
+    public static HollowLogsConfig CONFIG;
 
     @Override
     public void onInitialize() {
         HollowLogs.init();
 
+        if (FabricLoader.getInstance().isModLoaded("cloth-config")) {
+            HollowLogsConfig.init();
+        }
     }
 }

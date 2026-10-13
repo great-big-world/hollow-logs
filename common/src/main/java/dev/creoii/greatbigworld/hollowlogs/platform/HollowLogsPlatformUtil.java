@@ -19,4 +19,13 @@ public final class HollowLogsPlatformUtil {
         throw new AssertionError();
     }
 
+    @ExpectPlatform
+    public static boolean allowLogAxeCraftingRecipe() {
+        throw new AssertionError();
+    }
+
+    @ExpectPlatform
+    public static void setAllowLogAxeCraftingRecipe(boolean allowLogAxeCraftingRecipe) {
+        throw new AssertionError();
+    }
 }

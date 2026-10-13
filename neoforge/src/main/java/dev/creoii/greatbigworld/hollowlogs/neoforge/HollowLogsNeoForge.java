@@ -13,6 +13,8 @@ public final class HollowLogsNeoForge {
     public HollowLogsNeoForge(ModContainer container) {
         HollowLogs.init();
 
+        container.registerConfig(ModConfig.Type.SYNCED, HollowLogsConfig.CONFIG_SPEC);
+        container.registerExtensionPoint(IConfigScreenFactory.class, ConfigurationScreen::new);
 
         HollowLogsDataAttachmentsNeoForge.ATTACHMENT_TYPES.register(container.getEventBus());
     }

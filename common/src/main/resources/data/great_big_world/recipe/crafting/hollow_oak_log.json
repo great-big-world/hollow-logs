@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "hollow_logs",
+  "ingredients": [
+    "#minecraft:axes",
+    [
+      "minecraft:oak_log",
+      "minecraft:oak_wood"
+    ]
+  ],
+  "result": {
+    "id": "great_big_world:hollow_oak_log"
+  }
+}

@@ -16,4 +16,10 @@ public final class HollowLogsPlatformUtilImpl {
         player.removeData(HollowLogsDataAttachmentsNeoForge.PLAYER_ENTERING_HOLLOW_LOG);
     }
 
+    public static boolean allowLogAxeCraftingRecipe() {
+        return true;
+    }
+
+    public static void setAllowLogAxeCraftingRecipe(boolean allowLogAxeCraftingRecipe) {
+    }
 }

@@ -36,6 +36,7 @@ repositories {
         name = 'NeoForged'
         url = 'https://maven.neoforged.net/releases'
     }
+    maven { url "https://maven.shedaniel.me/" }
 }
 
 dependencies {
@@ -50,6 +51,7 @@ dependencies {
         implementation("io.github.llamalad7:mixinextras-neoforge:$rootProject.mixinextras_version")
     }
 
+    api("me.shedaniel.cloth:cloth-config-neoforge:26.3.159")
 }
 
 processResources {
